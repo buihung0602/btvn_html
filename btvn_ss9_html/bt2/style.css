@@ -1,0 +1,46 @@
+.parent{
+    border:solid 0.8px;
+    display:flex;
+    width:615px;
+    flex-wrap: wrap;
+}
+
+.child{
+    background-color:rgb(45, 207, 126);
+    padding:20px 70px;
+    color:white;
+    font-size:10px;
+}
+
+.child:nth-of-type(1){
+    
+margin:10px 5px 0px 10px;
+}
+
+.child:nth-of-type(2){
+    margin:10px 5px 0px 0px;
+}
+
+.child:nth-of-type(3){
+    margin:10px 5px 0px 0px;
+}
+
+.child:nth-of-type(4){
+    margin:10px 5px 0px 0px;
+}
+
+.child:nth-of-type(5){
+    margin:5px 5px 10px 10px;
+}
+
+.child:nth-of-type(6){
+    margin:5px 5px 10px 0px;
+}
+
+.child:nth-of-type(7){
+    margin:5px 5px 10px 0px;
+}
+
+.child:nth-of-type(8){
+    margin:5px 5px 10px 0px;
+}

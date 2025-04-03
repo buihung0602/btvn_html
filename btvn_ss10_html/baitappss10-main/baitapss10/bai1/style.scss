@@ -1,0 +1,46 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.tieude{
+    font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: #E5E5E5;
+    margin-top: 110px;
+}
+ul{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  li{
+    list-style: none;
+    font-size: 13px;
+    
+  }
+}
+.active{
+    font-weight: 700;
+   
+}
+button{
+    background-color: #8D939E;
+    padding: 7px 20px;
+  font-size: 13px;
+  border: none;
+  border-radius: 5px;
+    
+}
+.fa-magnifying-glass{
+    margin-right: 10px;
+}

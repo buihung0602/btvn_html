@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    background-color: #f5f5f5;
+    
+}
+.large {
+    width: 100%;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230406/pngtree-summer-fun-african-american-child-delights-in-field-adventure-with-balloons-photo-image_51297956.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 20px;
+    color: white;
+    background-position: center;
+    line-height: 60px;
+   
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    padding: 10px 0;
+
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 15px;
+    color: white;
+    height: 30vh;
+    flex: 1;
+    min-width: 30%;
+    background-size: cover;
+    background-position: center;
+}
+.c1 {
+    background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ1uWIuoQGW544KNS6U7vINzH0QP9H96Bk5AzL8QmwVxO8eiT56);
+}
+.c2 {
+    background-image: url(https://www.w3schools.com/w3images/mountains.jpg);
+}
+.c3 {
+    background-image: url(https://www.w3schools.com/w3images/nature.jpg);
+}
+.c4, .c6 {
+    background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTXwA69rPy-W77heet0DRExAZJ1DDNqDwx4YZMLmmurQOp_ZoIM);
+}
+.c5 {
+    background-color: maroon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c5 button {
+    background-color: white;
+    color: maroon;
+    border: none;
+    padding: 10px 100px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}

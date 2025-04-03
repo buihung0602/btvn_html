@@ -1,0 +1,45 @@
+header{
+        background-color: aqua;
+        padding: 10px;
+}
+*{
+    color: aliceblue;
+    
+}
+nav{
+    display: inline-block;
+   background-color:aquamarine ;
+   width: 49%;
+   margin:10px 10px 10px 1px;
+   padding: 10px;
+  
+  
+}
+article{
+    background-color: brown;
+    
+    padding: 10px;
+    width: 100%;
+    margin: 10px 10px 10px 1px;
+    padding: 10px;
+   
+    
+}
+section{
+    display: flex;
+    height: 25em;
+   
+}
+footer{
+    background-color: rgb(193, 39, 190);
+    padding: 10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(D:\HTML\baitapss8\bai6\pngegg.png);
+    width: 100%;
+}
